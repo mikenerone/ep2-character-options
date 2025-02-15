@@ -1,0 +1,60 @@
+{
+  "id": "ep2-character-options",
+  "title": "EP2 Character Options",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "The Character Options splatbook from Eclipsephase 2e imported to Bubz's EP2 system",
+  "packs": [
+    {
+      "name": "character-options-morphs",
+      "label": "Character Options Morphs",
+      "path": "packs/character-options-morphs",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ep2e",
+      "flags": {}
+    },
+    {
+      "name": "character-options-ware",
+      "label": "Character Options Ware",
+      "path": "packs/character-options-ware",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ep2e",
+      "flags": {}
+    },
+    {
+      "name": "character-options-traits",
+      "label": "Character Options Traits",
+      "path": "packs/character-options-traits",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ep2e",
+      "flags": {}
+    },
+    {
+      "name": "swarms",
+      "label": "Swarms",
+      "path": "packs/swarms",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ep2e",
+      "flags": {}
+    }
+  ]
+}
