@@ -1,60 +1,78 @@
 {
-  "id": "ep2-character-options",
-  "title": "EP2 Character Options",
+  "id": "ep2e-character-options",
+  "title": "Eclipse Phase 2e Character Options",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
-  "description": "The Character Options splatbook from Eclipsephase 2e imported to Bubz's EP2 system",
-  "packs": [
+  "relationships": {
+    "systems": [
+      {
+        "id": "ep2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
     {
-      "name": "character-options-morphs",
-      "label": "Character Options Morphs",
-      "path": "packs/character-options-morphs",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "ep2e",
+      "name": "CryingCyclops",
+      "discord": "CryingCyclops",
       "flags": {}
     },
     {
-      "name": "character-options-ware",
-      "label": "Character Options Ware",
-      "path": "packs/character-options-ware",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "ep2e",
-      "flags": {}
-    },
-    {
-      "name": "character-options-traits",
-      "label": "Character Options Traits",
-      "path": "packs/character-options-traits",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "ep2e",
-      "flags": {}
-    },
-    {
-      "name": "swarms",
-      "label": "Swarms",
-      "path": "packs/swarms",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "ep2e",
+      "name": "BigMistacke",
+      "discord": "BigMistacke",
       "flags": {}
     }
-  ]
+  ],
+  "url": "https://github.com/mikenerone/ep2e-character-options",
+  "packs": [
+    {
+      "name": "morphs-co",
+      "label": "Morphs [CO]",
+      "path": "packs/morphs-co",
+      "type": "Actor",
+      "system": "ep2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swarms-co",
+      "label": "Swarms [CO]",
+      "path": "packs/swarms-co",
+      "type": "Item",
+      "system": "ep2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ego-traits-co",
+      "label": "Ego Traits [CO]",
+      "path": "packs/ego-traits-co",
+      "type": "Item",
+      "system": "ep2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "morph-traits-co",
+      "label": "Morph Traits [CO]",
+      "path": "packs/morph-traits-co",
+      "type": "Item",
+      "system": "ep2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "Compendium Pack for content from the \"Character Options\" splatbook for Posthuman Studios' tabletop role playing game, Eclipse Phase Second Edition. For use with Bubz's EP2 game system."
 }
